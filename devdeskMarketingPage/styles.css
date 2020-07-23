@@ -85,6 +85,13 @@ nav a {
   color: #CAF0F8;
 }
 
+/* .current {
+  background-color: #90E0EF;
+  color: #03045E;
+  padding-top: px;
+  height: 100px;
+} */
+
 .top-section {
   background-color: #90E0EF;
   display: flex;
@@ -104,7 +111,12 @@ nav a {
   padding: 0 5% 5% 5%;
 }
 
-.top-text button {
+.top-text p{
+  font-size: 0.9rem;
+  padding-bottom: 3%;
+}
+
+button {
   background-color: #023e8a;
   border: 1px solid #03045E;
   border-radius: 12px;
@@ -112,12 +124,22 @@ nav a {
   font-size: 1.5rem;
   height: 50px;
   letter-spacing: 5px;
+  transition-duration: 0.2s;
   width: 50%;
+}
+
+.top-text button:hover {
+  background-color: #CAF0F8;
+  color: #03045E;
+}
+
+.about-section {
+  padding: 3%;
 }
 
 footer {
   background-color: #03045E;
-  height: 75px;
+  /* height: 75px; */
 }
 
 footer p {
