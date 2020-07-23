@@ -46,3 +46,32 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+    box-sizing: border-box;
+}
+body {
+  font-size: 67.5%;
+}
+
+header {
+  background-color: #023e8a;
+  font-size: 1rem;
+  padding: 10% auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #CAF0F8;
+}
+
+.top-section img {
+  border-radius: 100px;
+  /* height: 50%; */
+  width: 50%;
+}
