@@ -50,13 +50,19 @@ table {
     box-sizing: border-box;
 }
 body {
+  background-color: #ADE8F4;
   font-size: 67.5%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;;
 }
 
 header {
   background-color: #023e8a;
   font-size: 1rem;
-  padding: 10% auto;
+  margin-bottom: 3%;
 }
 
 nav {
@@ -70,8 +76,15 @@ nav a {
   color: #CAF0F8;
 }
 
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .top-section img {
   border-radius: 100px;
-  /* height: 50%; */
-  width: 50%;
+  margin-bottom: 3%;
+  width: 250px;
 }
