@@ -123,7 +123,7 @@ button {
   color: #CAF0F8;
   font-size: 1.5rem;
   height: 50px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   transition-duration: 0.2s;
   width: 50%;
 }
@@ -150,13 +150,20 @@ button {
   line-height: 1.5;
 }
 
+.about-section button:hover {
+  background-color: #90E0EF;
+  border: 1px solid #023e8a;
+  color: #03045E;
+}
+
 .about-text {
   margin-bottom: 3%;
+  width: 85%;
 }
 
 .about-cards {
   background-color: #023e8a;
-  border: 1px solid black;
+  /* border: 3px solid #03045E; */
   height: 250px;
   margin-bottom: 3%;
   width: 85%;
@@ -180,13 +187,23 @@ button {
   color: #90E0EF;
 }
 
+.bottom-text {
+  margin: 3% 0;
+}
+
 footer {
-  background-color: #03045E;
-  /* height: 75px; */
+  background-color: #023e8a;
+  font-size: 1rem;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 footer p {
   color: #CAF0F8;
+  font-size: .7rem;
+  margin-bottom: 3%;
 }
 
 /* footer nav a {
