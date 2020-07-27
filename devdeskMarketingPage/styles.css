@@ -75,6 +75,7 @@ p {
 header {
   background-color: #023e8a;
   font-size: 1rem;
+  max-height: 100px;
   padding-bottom: 3%;
   display: flex;
   justify-content: space-between;
@@ -83,6 +84,8 @@ header {
 
 header img {
   display: none;
+  max-height: 100px;
+  max-width: 300px;
   width: 25%;
   margin-bottom: -3%;
 }
@@ -225,7 +228,9 @@ padding: 19px 56px 21px;
 }
 
 .about-cards img {
+  border: 3px solid #90E0EF;
   border-radius: 100%;
+  max-width: 150px;
   width: 30%;
 }
 
@@ -265,6 +270,9 @@ footer p {
     nav {
       width: 75%;
     }
+    /* .about-cards {
+      flex-direction: row;
+    } */
     .about-section h2 {
     font-size: 1.8rem;
   }
