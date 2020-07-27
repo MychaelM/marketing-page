@@ -205,6 +205,7 @@ padding: 19px 56px 21px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .about-cards h2 {
@@ -221,6 +222,11 @@ padding: 19px 56px 21px;
 .about-cards i {
   font-size: 4rem;
   color: #90E0EF;
+}
+
+.about-cards img {
+  border-radius: 100%;
+  width: 30%;
 }
 
 .bottom-text {
