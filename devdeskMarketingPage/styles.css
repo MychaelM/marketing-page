@@ -76,9 +76,19 @@ header {
   background-color: #023e8a;
   font-size: 1rem;
   padding-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  display: none;
+  width: 25%;
+  margin-bottom: -3%;
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   padding-top: 3%;
@@ -238,6 +248,13 @@ footer p {
 }
 
 @media (min-width: 800px) {
+
+    header img {
+      display: initial;
+  }
+    nav {
+      width: 75%;
+    }
     .about-section h2 {
     font-size: 1.8rem;
   }
