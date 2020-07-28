@@ -3,60 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevDesk Queue</title>
+  <title>Lambda DevDesk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/8ed11ebda2.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
+    <img src="img\LambdaLogoTransparent.png" alt="Lambda logo">
     <nav>
-      <a href="#" class="current">Home</a>
-      <a href="#">About Us</a>
-      <a href="#">Contact</a>
+      <a href="index.html" class="current">Home</a>
+      <a href="about.html">About Us</a>
+      <!-- <a href="#">Contact</a> -->
       <a href="#">Login</a>
       <a href="#">Sign Up</a>
     </nav>
   </header>
 
-<div class="container">
+<div class="top-container">
 
   <section class="top-section">
     <img src="img\computerStudent.jpg" alt="Man sitting at desk in front of a Mac Laptop">
     <div class="top-text">
-      <h1>DevDesk Queue</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ut iusto modi sed aliquid quod suscipit architecto delectus. Aut sed minima dolorem doloremque cum cupiditate ea at fugiat voluptate dolor autem vel exercitationem earum dolorum, mollitia veniam blanditiis impedit maiores illum itaque iste harum modi expedita. Quaerat, sed! Blanditiis, architecto.</p>
-      <button>Login</button>
+      <h1>Lambda DevDesk</h1>
+      <p>Students at Lambda School need a place where they can escalate their concerns and receive help. This app will allow an admin to manage help desk tickets that come in from Lambda School Students. It also allows students to submit a help desk ticket, categorize it and post it to the help channel.</p>
+      <a href="#"><button class="top-button">Login</button></a>
     </div>
   </section>
-
+</div>
+<div class="container">
   <section class="about-section">
+    <div class="about-text">
     <h2>How we can Help</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error tempora adipisci non consectetur. Quaerat excepturi tempora reprehenderit, necessitatibus consequuntur accusamus.</p>
-    <div class="about-cards">
-      <img src="#" alt="#">
-      <h2>Lorem, ipsum.</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus magni, id mollitia aliquid iusto natus!</p>
+    <p>Lambda DevDesk will solve the following pain points when needing to track and organize issue that students need resolved.</p>
     </div>
     <div class="about-cards">
-      <img src="#" alt="#">
-      <h2>Lorem, ipsum.</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus magni, id mollitia aliquid iusto natus!</p>
+      <i class="fas fa-user-graduate"></i>
+      <h2>Submit.</h2>
+      <p>Students are able to login to create and submit a new help desk ticket, and are able to see all tickets that are currently open for help!</p>
     </div>
     <div class="about-cards">
-      <img src="#" alt="#">
-      <h2>Lorem, ipsum.</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus magni, id mollitia aliquid iusto natus!</p>
+      <i class="fas fa-columns"></i>
+      <h2>Categorize.</h2>
+      <p>Lambda help desk tickets are categorized based on the title, description, "what I've tried", and category that the student included when creating their ticket!</p>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt!</p>
-    <button>Sign Up</button>
+    <div class="about-cards">
+      <i class="fas fa-map-signs"></i>
+      <h2>Organize.</h2>
+      <p>An admin or helper can see all the open tickets, can assign a ticket to themselves, and can resolve tickets that they have resolved!</p>
+    </div>
+    <div class="about-text">
+    <p class="bottom-text">The days of long forgotten or unheard student issues can be gone by using Lambda DevDesk to track and organize issues that students need help with!</p>
+    </div>
+    <a href="#"><button>Sign Up</button></a>
   </section>
 
 </div>
 
 <footer>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">About Us</a>
-    <a href="#">Contact</a>
+  <nav class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <!-- <a href="#">Contact</a> -->
     <a href="#">Login</a>
     <a href="#">Sign Up</a>
   </nav>
