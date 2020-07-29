@@ -250,7 +250,7 @@ footer {
   height: 75px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 footer p {
@@ -260,6 +260,7 @@ footer p {
 }
 
 .bottom-nav {
+  padding-top: 1%;
   width: 100%;
 }
 
@@ -283,9 +284,6 @@ footer p {
     .about-section h2 {
       font-size: 1.8rem;
   }
-    .about-section p {
-      font-size: 1.2rem;
-  }
     footer {
       height: 100px;
   }
@@ -296,7 +294,7 @@ footer p {
     font-size: 1.5rem;
   }
   footer {
-    height: 130px;
+    height: 115px;
   }
   footer p {
   font-size: .9rem;
